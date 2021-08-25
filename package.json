@@ -1,0 +1,48 @@
+{
+	"name": "renamer",
+	"version": "1.0.0",
+	"description": "File renamer",
+	"main": "main.js",
+	"scripts": {
+		"start": "nodemon --watch . --exec electron .",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"pack": "electron-builder --dir",
+		"dist": "electron-builder",
+		"publish": "electron-builder build --win -p always"
+	},
+	"author": "Shye Chern",
+	"license": "ISC",
+	"devDependencies": {
+		"electron": "^13.2.1",
+		"electron-builder": "^22.11.7",
+		"nodemon": "^2.0.12"
+	},
+	"build": {
+		"appId": "com.electron.renamer",
+		"productName": "renamer",
+		"copyright": "Copyright Shye Chern",
+		"mac": {
+			"category": "public.app-category.utilities"
+		},
+		"win": {
+			"certificateFile": "build/shyechern.example.pfx",
+			"certificatePassword": "",
+			"publisherName": "Shye Chern",
+			"verifyUpdateCodeSignature": false
+		},
+		"nsis": {
+			"oneClick": false,
+			"allowToChangeInstallationDirectory": true
+		},
+		"publish": [
+			{
+				"provider": "github",
+				"owner": "ShyeChern",
+				"repo": "renamer"
+			}
+		]
+	},
+	"dependencies": {
+		"electron-updater": "^4.3.9"
+	}
+}
