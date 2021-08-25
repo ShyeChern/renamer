@@ -1,7 +1,7 @@
 # Renamer
 
 A desktop application to rename your files into random sequence in folder by adding number prefix.
-Project Status: Completed (Only works and available in Android)
+
 **Project Status: Completed (Only tested and available in Windows)**
 
 [Changelog](CHANGELOG.md)
