@@ -1,12 +1,13 @@
 # Renamer
 
 A desktop application to rename your files into random sequence in folder by adding number prefix.
+
 **Only tested and available in Windows**
 
 [Changelog](CHANGELOG.md)
 
 ## Demo
-<img src="https://github.com/ShyeChern/renamer/raw/master/src/assets/gif/demo.gif" alt="Demo" width="300" height="400"> 
+<img src="https://github.com/ShyeChern/renamer/raw/master/src/assets/gif/demo.gif" alt="Demo" width="500" height="300"> 
 
 ## Installation
 Go to [to update](CHANGELOG.md) and ................
