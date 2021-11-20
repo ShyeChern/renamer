@@ -1,6 +1,6 @@
 # Renamer
 
-A desktop application to rename your files into random sequence in folder by adding number prefix.
+A desktop application to rename your files into random sequence in folder by adding number prefix. Developed by using Electron.
 
 **Project Status: Completed (Only tested and available in Windows)**
 
